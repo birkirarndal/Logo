@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    
+
+    <title>Document</title>
+</head>
+<body>
+  <section>
+    <h3>SVG</h3>
+      <svg width="150" height="150">
+          <g>
+            <path stroke="black" stroke-width="10" fill="transparent" 
+                  d="M20 120 
+                    H 110
+                    Q 111 120 110 120
+                    L 90 140
+                    H 30
+                    L 15 120 
+                    Q 14 120 20 120
+                    "/>
+          </g>
+          <g>
+            <rect stroke="black" stroke-width="10" fill="transparent" x="45" Y="50" width="35" height="70"/>
+          </g> 
+          <g>
+              <path stroke="black" stroke-width="7" fill="transparent" 
+              d="M62 45 
+                 V 35
+                 "/>
+          </g>
+          <g>
+              <path stroke="black" stroke-width="5" fill="transparent" 
+              d="M50 25
+                C 50 36 73 36 73 25
+                L 70 10
+                C 70 5 60 0 55 10
+                L 50 26
+                 "/>
+          </g>
+        </svg>
+  </section>
+  <section>
+    <h3>Kvikun</h3>
+        <svg width="150" height="150" id="candle">
+                <g>
+                  <path stroke="black" stroke-width="10" fill="transparent" 
+                        d="M20 120 
+                          H 110
+                          Q 111 120 110 120
+                          L 90 140
+                          H 30
+                          L 15 120 
+                          Q 14 120 20 120
+                          "/>
+                </g>
+                <g>
+                  <rect stroke="black" stroke-width="10" fill="transparent" x="45" Y="50" width="35" height="70"/>
+                </g> 
+                <g>
+                    <path stroke="black" stroke-width="7" fill="transparent" 
+                    d="M62 45 
+                       V 35
+                       "/>
+                </g>
+                <g>
+                    <path class="flame" stroke="black" stroke-width="5" fill="transparent" 
+                    d="M50 25
+                      C 50 36 73 36 73 25
+                      L 70 10
+                      C 70 5 60 0 55 10
+                      L 50 26
+                       "/>
+                </g>
+        </svg>
+    </section>
+    <script src="node_modules/animejs/lib/anime.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
